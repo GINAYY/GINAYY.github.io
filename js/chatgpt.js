@@ -192,7 +192,7 @@ function ChucklePostAI(config) {
       };
   
       try {
-        const response = await fetch("https://api.chatanywhere.tech/v1", {
+        const response = await fetch("https://api.chatanywhere.tech", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
